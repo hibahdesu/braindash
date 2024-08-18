@@ -166,24 +166,44 @@ export default function Home() {
       </section>
 
       {/* Footer */}
-      <footer className="bg-primary text-white py-6 px-6 md:px-32 ">
-        <div className="flex flex-col md:flex-row justify-between items-center">
-          <div className="text-center md:text-left">
-            <p>&copy; {new Date().getFullYear()} BRAINDASH. All rights reserved.</p>
-          </div>
-          <div className="flex space-x-4 mt-4 md:mt-0">
-            <a href="https://www.facebook.com" target="_blank" rel="noreferrer" className="hover:text-secondary">
-              <FaFacebookF />
-            </a>
-            <a href="https://www.twitter.com" target="_blank" rel="noreferrer" className="hover:text-secondary">
-              <FaTwitter />
-            </a>
-            <a href="https://www.instagram.com" target="_blank" rel="noreferrer" className="hover:text-secondary">
-              <FaInstagram />
-            </a>
-          </div>
+      <footer className="bg-primary text-white py-6 px-6 sm:px-8 lg:px-32 text-center mt-12 border-2 border-primary ">
+      <div className="container mx-auto">
+        <div className="flex justify-between items-center mb-4">
+        <div>
+          {/* Logo goes here */}
+          <img src="/images/logo.webp" alt="BRAINDASH" className="h-16 w-full" />
         </div>
-      </footer>
+        <div className="flex justify-between items-center mb-4">
+          {/* Social media icons */}
+          <a href="#" className="text-tertiary hover:text-secondary mr-4">
+            <FaFacebookF className="text-2xl" />
+          </a>
+          <a href="#" className="text-tertiary hover:text-secondary mr-4">
+            <FaTwitter className="text-2xl" />
+          </a>
+          <a href="#" className="text-tertiary hover:text-secondary">
+            <FaInstagram className="text-2xl" />
+          </a>
+        </div>
+      </div>
+        
+        <div className="flex justify-center space-x-4">
+          {[
+            {Icon: FaFacebookF, url: 'https://www.facebook.com'},
+            {Icon: FaTwitter, url: 'https://www.twitter.com'},
+            {Icon: FaInstagram, url: 'https://www.instagram.com'},
+          ].map(({Icon, url}) => (
+            <a key={url} href={url} target="_blank" rel="noopener noreferrer">
+              <Icon className="text-primary hover:text-senary"/>
+            </a>
+          ))}
+        </div>
+        <p className="text-sm mt-4 text-tertiary">
+          &copy; 2023 All rights reserved.
+        </p>
+        
+      </div>
+    </footer>
     </div>
   );
 }
