@@ -126,7 +126,7 @@ export default function Home() {
           <div className="w-full md:w-1/2 flex flex-col pl-0 md:pl-8 justify-center mt-4 md:mt-0 md:ml-8 ">
             <h2 className="text-primary text-2xl sm:text-4xl md:text-6xl font-bold text-white mb-4 md:mb-8 text-center">About the App</h2>
             <p className="text-senary mb-4 md:mb-8 text-lg md:text-xl text-center">
-              At the heart of our platform is a cutting-edge AI engine that analyzes your study habits, knowledge gaps, and learning preferences to generate personalized flashcard sets tailored just for you. Our adaptive algorithms ensure that the content you're presented with is optimized for your individual needs, helping you retain information more effectively and efficiently.
+              BRAINDASH is an innovative AI-powered flashcard platform that is transforming the way you study and retain information. Powered by cutting-edge artificial intelligence and a deep understanding of cognitive science, our platform is designed to help you learn more effectively and efficiently.
             </p>
           </div>
         </div>
