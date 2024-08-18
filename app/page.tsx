@@ -142,7 +142,7 @@ export default function Home() {
                 <img src="/images/feature-1.jpg" alt="Feature 1" className="w-full h-full object-cover object-center" />
               </div>
               <div className='bg-septenary rounded-b-[.5rem] w-full h-1/4 flex items-center justify-center'>
-                <h3 className='text-secondary font-bold text-center'>Learning New Words</h3>
+                <h3 className='text-secondary font-bold text-center'>Effortless Words Creation</h3>
               </div>
             </div>
             <div className='rounded-[.5rem] overflow-hidden grid grid-cols-1 grid-rows-2 gap-0 h-full'>
@@ -150,7 +150,7 @@ export default function Home() {
                 <img src="/images/feature-2.jpg" alt="Feature 2" className="w-full h-full object-cover object-center" />
               </div>
               <div className='bg-septenary rounded-b-[.5rem] w-full h-1/4 flex items-center justify-center'>
-                <h3 className='text-secondary font-bold text-center'>Learning New Words</h3>
+                <h3 className='text-secondary font-bold text-center'>Gamified Learning</h3>
               </div>
             </div>
             <div className='rounded-[.5rem] overflow-hidden grid grid-cols-1 grid-rows-2 gap-0 h-full'>
@@ -158,7 +158,7 @@ export default function Home() {
                 <img src="/images/feature-4.jpg" alt="Feature 3" className="w-full h-full object-cover object-center" />
               </div>
               <div className='bg-septenary rounded-b-[.5rem] w-full h-1/4 flex items-center justify-center'>
-                <h3 className='text-secondary font-bold text-center'>Learning New Words</h3>
+                <h3 className='text-secondary font-bold text-center'>Seamless Cross-Platform Access</h3>
               </div>
             </div>
           </div>
