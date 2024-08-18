@@ -29,7 +29,7 @@ const NavBar = () => {
   };
 
   const handleLogoClick = () => {
-    router.push('/app/page');
+    router.push('/');
   };
 
   return (
