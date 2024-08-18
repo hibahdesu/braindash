@@ -36,9 +36,9 @@ const NavBar = () => {
     
       <header className="bg-quaternary text-primary border-2 border-primary py-6 px-4 sm:px-6 lg:px-12 mt-12 mb-12 mx-4 sm:mx-8 lg:mx-32 rounded-lg">
         <div className="container mx-auto flex justify-between items-center">
-          <div onClick={handleLogoClick}>
+          <button onClick={handleLogoClick}>
             <img src="/images/logo.webp" alt="Logo" className="h-10 sm:h-12 lg:h-16" />
-          </div>
+          </button>
           <nav className="relative">
             <ul className="hidden lg:flex space-x-4">
               <li>
